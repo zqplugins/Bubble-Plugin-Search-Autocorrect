@@ -1,0 +1,15 @@
+{
+    "assets": {
+        "AAO": {
+            "name": "fuse",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1513111916188x514012048952281500/fuse.min.js"
+        },
+        "ABj": {
+            "name": "fuse.js v3.4.5",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1561147539869x117818657172566130/fuse.js"
+        }
+    },
+    "dependencies": {
+        "use_jquery": true
+    }
+}

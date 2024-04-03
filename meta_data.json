@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "visual elements",
+        "1": "data (things)"
+    },
+    "description": "🔔 Make sure to check out our Fuzzy Search Pro plugin that comes with more advanced search functionality: https://zeroqode.com/plugin/fuzzy-search-pro-plugin-for-bubble-1696316951721x591081733613746800 \n\nAdd fuzzy searching to a Search Box to handle typos and other errors, within-word searches and more. Or build your own fast, live search dropdown searching through multiple fields.\n\nTo receive special offers and important updates please visit: https://zeroqo.de/updates\n\n🔔 Get our 15 Top Plugins Bundle with 15 most popular plugins for only 20$/month.\nPlugins included in the Bundle:\n\n- Bubble Page to PDF converter\n- Stripe Marketplace Express\n- Air Calendar (Full Calendar 5.9.0)\n- AWS File uploader - Any size\n- Advanced Rich Text Editor\n- Mapbox Map\n- Phone Input Number with Formatting\n- Advanced Multi Uploader\n- Video Player\n- Dynamic Height & Width of Elements\n- Audio Recorder\n- Repeating Group to CSV\n- Print Pro\n- Advanced Audio Player\n- Easy File Downloader\n\nGet it here: https://zeroqode.com/bundle\n\nDEMO & DOCUMENTATION\nhttps://zeroqode.com/plugin/search--autocorrect-plugin-for-bubble-1695228240495x160379750352429570\n\nNEED HELP BUILDING A CUSTOM APPLICATION?\nhttps://dev.zeroqode.com\n\nSUPERCHARGE YOUR APP WITH ZEROQODE PLUGINS\nhttps://zeroqode.com/plugins\n\nQUESTIONS OR NEED HELP?\nhttps://forum.zeroqode.com ",
+    "image": "//s3.amazonaws.com/appforest_uf/f1515699555851x694098205538466600/search%20%282%29.png",
+    "instructions": "Please see service URL",
+    "license": "open_source",
+    "link": "https://zeroqode.com/plugins",
+    "name": "Search & Autocorrect",
+    "plugin_instructions": "- Place the element and input on the page and set it to Attribute ID.\n- Select the checkbox to match from the input box and paste your input ID in the Input Box ID field.\n- Place the Repeating Group and set the data source of the info it's being searched for."
+}

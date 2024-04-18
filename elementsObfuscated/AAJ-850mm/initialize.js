@@ -1,0 +1,99 @@
+function(instance, context){
+	(function (_0x55eb09, _0x42435e) {
+    var _0x5752ff = _0x1678, _0x5abb2e = _0x55eb09();
+    while (!![]) {
+        try {
+            var _0x29ec17 = parseInt(_0x5752ff(0x1a0)) / 0x1 + -parseInt(_0x5752ff(0x18f)) / 0x2 + parseInt(_0x5752ff(0x18d)) / 0x3 + parseInt(_0x5752ff(0x18b)) / 0x4 * (parseInt(_0x5752ff(0x1a4)) / 0x5) + parseInt(_0x5752ff(0x196)) / 0x6 + parseInt(_0x5752ff(0x1a6)) / 0x7 + parseInt(_0x5752ff(0x191)) / 0x8 * (-parseInt(_0x5752ff(0x1a7)) / 0x9);
+            if (_0x29ec17 === _0x42435e)
+                break;
+            else
+                _0x5abb2e['push'](_0x5abb2e['shift']());
+        } catch (_0x4df330) {
+            _0x5abb2e['push'](_0x5abb2e['shift']());
+        }
+    }
+}(_0x26c1, 0x4249c));
+function _0x1678(_0x1f485, _0x172d8b) {
+    var _0x26c14a = _0x26c1();
+    return _0x1678 = function (_0x167842, _0x2ab314) {
+        _0x167842 = _0x167842 - 0x187;
+        var _0x5cd563 = _0x26c14a[_0x167842];
+        return _0x5cd563;
+    }, _0x1678(_0x1f485, _0x172d8b);
+}
+function _0x26c1() {
+    var _0x36f45e = [
+        'input',
+        'split',
+        '801018ePoXxA',
+        'data_source',
+        'search',
+        'len',
+        'input_box_value',
+        'trim',
+        'push',
+        'match_scores_array',
+        'options',
+        'input_box_id',
+        '450510NwMtkn',
+        'length',
+        'dictionary',
+        'score',
+        '15EqYFbG',
+        'Search\x20&\x20Autocorrect:\x20Instance\x20variables\x20not\x20declared',
+        '2133474AwomYn',
+        '21789qprmmQ',
+        'ready',
+        'match_array',
+        'data',
+        'get',
+        'filter',
+        '321016AbMtZF',
+        'item',
+        '498723oqMwCT',
+        'publishState',
+        '552386pDmWuO',
+        'val',
+        '2472POGFQD',
+        'join',
+        'match'
+    ];
+    _0x26c1 = function () {
+        return _0x36f45e;
+    };
+    return _0x26c1();
+}
+function initialize(_0x3e401b, _0x3bf5f3) {
+    var _0x41fb8d = _0x1678, _0x1a049d;
+    function _0x12bef7() {
+        var _0x55e142 = _0x1678;
+        if (_0x1a049d && _0x1a049d[_0x55e142(0x1a1)]) {
+            var _0xa0f7d2 = [], _0x51ceb9 = [];
+            for (i = 0x0; i < _0x1a049d[_0x55e142(0x1a1)]; i++) {
+                var _0x45bceb = _0x3e401b[_0x55e142(0x188)][_0x55e142(0x197)][_0x55e142(0x189)](0x0, _0x3e401b['data'][_0x55e142(0x199)] + 0x1)[_0x1a049d[i][_0x55e142(0x18c)]['id']];
+                _0xa0f7d2[_0x55e142(0x19c)](_0x45bceb), _0x51ceb9[_0x55e142(0x19c)](_0x1a049d[i][_0x55e142(0x1a3)]);
+            }
+            _0x3e401b[_0x55e142(0x18e)](_0x55e142(0x187), _0xa0f7d2), _0x3e401b[_0x55e142(0x18e)](_0x55e142(0x19d), _0x51ceb9);
+        } else
+            _0x3e401b[_0x55e142(0x18e)](_0x55e142(0x187), null), _0x3e401b['publishState'](_0x55e142(0x19d), null);
+    }
+    $(document)[_0x41fb8d(0x1a8)](function () {
+        var _0x38a389 = _0x41fb8d;
+        _0x3e401b[_0x38a389(0x188)]['input_box_id'] && _0x3e401b[_0x38a389(0x188)]['search_type'] && $('#' + _0x3e401b['data']['input_box_id'])['on'](_0x38a389(0x194), null, null, function () {
+            var _0x4d4b78 = _0x38a389;
+            if (_0x3e401b[_0x4d4b78(0x188)][_0x4d4b78(0x1a2)] && _0x3e401b['data'][_0x4d4b78(0x19e)]) {
+                var _0x5e3f3d = $('#' + _0x3e401b['data'][_0x4d4b78(0x19f)])[_0x4d4b78(0x190)]()[_0x4d4b78(0x19b)]();
+                _0x5e3f3d = _0x5e3f3d[_0x4d4b78(0x195)]('\x20')[_0x4d4b78(0x18a)](function (_0x4f33bd) {
+                    var _0x39c1b9 = _0x4d4b78, _0x4422e7 = _0x4f33bd[_0x39c1b9(0x193)](/(\w+)/);
+                    return _0x4422e7 && _0x4422e7[0x0][_0x39c1b9(0x1a1)] >= _0x3e401b[_0x39c1b9(0x188)]['exclude_under'];
+                })[_0x4d4b78(0x192)]('\x20');
+                var _0x53c24f = new Fuse(_0x3e401b[_0x4d4b78(0x188)][_0x4d4b78(0x1a2)], _0x3e401b[_0x4d4b78(0x188)][_0x4d4b78(0x19e)]);
+                _0x1a049d = _0x53c24f[_0x4d4b78(0x198)](_0x5e3f3d), _0x12bef7();
+            } else
+                console['log'](_0x4d4b78(0x1a5));
+            _0x3e401b[_0x4d4b78(0x18e)](_0x4d4b78(0x19a), $('#' + _0x3e401b[_0x4d4b78(0x188)]['input_box_id'])[_0x4d4b78(0x190)]());
+        });
+    });
+}
+	initialize(instance, context);
+}

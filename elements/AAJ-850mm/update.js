@@ -1,12 +1,5 @@
 function(instance, properties, context) {
     
-    const removeSpecialCharacters = str => {
-        if (str && typeof str === "string") {
-           return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-        }
-
-    }
-
 
     // declare instance variables
     instance.data.data_source = properties.data_source;
@@ -15,6 +8,7 @@ function(instance, properties, context) {
     instance.data.input_box_id = properties.input_box_id;
     instance.data.exclude_under = properties.exclude_under;
     instance.data.search_type = properties.search_type;
+    instance.data.ignore_diacritics = properties.ignore_diacritics;
 
 
 
@@ -54,7 +48,7 @@ function(instance, properties, context) {
 
             var value_pairs = {
                 id: i,
-                word1: properties.ignore_diacritics ? removeSpecialCharacters(current_object.get(properties.search_field)) : current_object.get(properties.search_field),
+                word1: properties.ignore_diacritics ? instance.data.removeSpecialCharacters(current_object.get(properties.search_field)) : current_object.get(properties.search_field),
                 word2: (properties.search_field_2) ? current_object.get(properties.search_field_2) : "Empty",
                 word3: (properties.search_field_3) ? current_object.get(properties.search_field_3) : "Empty",
                 word4: (properties.search_field_4) ? current_object.get(properties.search_field_4) : "Empty",
@@ -124,7 +118,7 @@ function(instance, properties, context) {
     if (!properties.search_type && properties.string_to_match) {
 
         // Trim leading & trailing whitespace, then remove words shorter than exclude_under value
-        var searchTerm = properties.ignore_diacritics ? removeSpecialCharacters(properties.string_to_match.trim()) : properties.string_to_match.trim();
+        var searchTerm = properties.ignore_diacritics ? instance.data.removeSpecialCharacters(properties.string_to_match.trim()) : properties.string_to_match.trim();
         
         searchTerm = searchTerm.split(' ').filter(function(str) {
             var word = str.match(/(\w+)/);

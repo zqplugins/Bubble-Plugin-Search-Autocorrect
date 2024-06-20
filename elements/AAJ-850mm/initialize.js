@@ -1,8 +1,13 @@
 function(instance, context) {
 
-
-
     var result;
+    
+    instance.data.removeSpecialCharacters = str => {
+        if (str && typeof str === "string") {
+           return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        }
+
+    }
 
     function getResults() {
         // Check that result exists and is not empty before attempting to set properties to avoid errors. Reset matched states to null when no matches found
@@ -39,7 +44,8 @@ function(instance, context) {
 
                 if (instance.data.dictionary && instance.data.options) {
                     // Trim leading & trailing whitespace, then remove words shorter than exclude_under value
-                    var searchTerm = $("#" + instance.data.input_box_id).val().trim();
+                    var searchTerm = instance.data.ignore_diacritics ? instance.data.removeSpecialCharacters($("#" + instance.data.input_box_id).val().trim()) : $("#" + instance.data.input_box_id).val().trim();
+                    //var searchTerm = $("#" + instance.data.input_box_id).val().trim();
                     searchTerm = searchTerm.split(' ').filter(function(str) {
                         var word = str.match(/(\w+)/);
                         return word && word[0].length >= instance.data.exclude_under;
